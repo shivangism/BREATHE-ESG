@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 import {gapi} from "gapi-script";
 import { signin, signup } from '../../actions/auth';
 export default function Login() {
-  gapi.load("client:auth2", () => { gapi.client.init({ clientId: "75975302017-8deti4qrdl5i3td94ku8n5dta7hthtb4.apps.googleusercontent.com", plugin_name: "chat", }); });
+  gapi.load("client:auth2", () => { gapi.client.init({ clientId: "77693169661-1t17ubmaea1q40338mg49kikagpoqfcr.apps.googleusercontent.com", plugin_name: "chat", }); });
   const dispatch  = useDispatch();
   const navigate = useNavigate();
   const [errorMsg,setErrorMsg]= useState("");
@@ -75,7 +75,7 @@ export default function Login() {
           <Row>
             <Col>
              <GoogleLogin           
-            clientId="75975302017-8deti4qrdl5i3td94ku8n5dta7hthtb4.apps.googleusercontent.com"
+            clientId="77693169661-1t17ubmaea1q40338mg49kikagpoqfcr.apps.googleusercontent.com"
             render={(renderProps) => (
               <button className="loginFormContainer" fullWidth onClick={renderProps.onClick} disabled={renderProps.disabled}>
               <img
