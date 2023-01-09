@@ -1,0 +1,63 @@
+.OuterContainer1{
+   display: flex; 
+   background-color:  #AEE3D0 ;
+   height:  100vh ;  
+}
+.BreatheeESG-img,.vectors{
+    height:  15vh ; 
+    width:  auto ;
+    margin:  2vh ;
+}
+.vectors{  
+    display: flex; 
+   background-color:  #AEE3D0 ;
+   height:  100vh ;  
+
+}
+.LoginVector{
+    height:  80vh ;
+    margin-left:  6vw ;
+    margin-top:  10vh ;
+    z-index:  10 ;
+    position:  fixed ;
+}
+.container2{
+    height:  100vh ;
+    width:  60vw ;
+    border-top-left-radius:  10% ;
+    border-bottom-left-radius:  10% ;
+    background-color:  white ;
+    margin-left:  40% ;
+    position:  fixed ;
+    padding-top:  7% ;
+    padding-bottom:  6% ;
+    padding-right:  12% ;
+    padding-left:  12% ;
+}
+.loginFormContainer{
+    display:  flex ;
+    align-items: center ;
+    justify-content:  center ;
+    border:  1px solid  #D3D3D3 ;
+    padding:  4px ;
+    border-radius:  5px ;
+}
+.inputBox{
+    outline: 0;
+    border-width: 0 0 2px !important;
+    border-radius: 0 !important;
+}
+@media (max-width:1100px){
+    .LoginVector{
+        margin-left: 0;
+    }
+}
+@media (max-width:1000px){
+    .vectors{
+        display: none;
+    }
+    .container2{
+        width:100%;margin:0;
+        border-radius: 0;
+    }
+}

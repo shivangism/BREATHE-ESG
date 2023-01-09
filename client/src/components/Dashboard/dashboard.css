@@ -1,0 +1,139 @@
+.dashboard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    height: 100vh;
+}
+.leftDashboard{
+    text-align: center;
+    background-color: #aee3d0;
+    height: 100%;
+}
+.leftDashboard img{
+    border-radius: 50%;
+    border: 1rem #d8fff1 solid;  
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+.leftDashboard .organaisation{
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    font-size: .7rem;
+    margin-top: 4px;
+}
+
+.leftDashboard .name{
+    margin-top: 8px;
+    color: #465b53;
+}
+.leftDashboard>div{
+    width:80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: #465b53;
+    line-height: 2rem;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+}
+.leftDashboard>div .registration{
+    height: 2rem;
+    background-color: #97c2b9;
+    height: 2rem;
+    margin-top: 2rem;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+#Menu div>*{
+    margin: 0.5vmax;
+    /* border: 2px solid green; */
+}
+.rightDashboard{
+    width: 90%;
+    margin: auto;
+    margin-top:3rem;
+}
+.rightDashboard>p{
+   color:#a1c6b8 !important;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+.rightDashboard>h2>span{
+    color:#32bc8a;
+}
+.rightDashboard>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+}
+
+.rightDashboard .box-right{
+    /* background-color: #32bc8a; */
+}
+.createOrganisation, .joinOrganisation{
+    /* border: 2px solid yellow; */
+    background-color: #d2f4e7;
+    /* padding: 1vmax; */
+    border-radius: 22px;
+    margin: 0 1rem;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    align-items: center;
+    justify-items: center;
+}
+.createOrganisation button,.joinOrganisation button{
+    padding:1rem 2rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+}
+.createOrganisation button{
+    background-color: #32BC8A;
+}
+.joinOrganisation{
+    background-color: #c4e9f1;
+}
+.joinOrganisation button{
+    background-color: #92C3CD;
+}
+.box-right{
+   width:75%;
+    text-align: center;
+    padding: 2rem 0;
+    /* border: 2px solid orange; */
+}
+.box-right p{
+    text-align: left;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+
+
+/* LeftDashboard */
+
+#Menu div{
+ /* border: 2px solid red !important; */
+ display: flex;
+align-items:center ;
+}
+
+
+
+
+
+
+/* createOrgansisation */
+
+.box-left img{
+   width: 100%;
+    /* border: 2px solid green; */
+    padding: 1rem;
+}

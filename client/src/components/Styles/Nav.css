@@ -1,0 +1,22 @@
+.Nav_container{
+    height:64px;
+    display:flex;
+    justify-content: space-between;
+    padding:1%;
+    align-items: center;
+    background-color: rgba(60, 64, 93, 255);
+    z-index: 10;    
+}
+.sideNav{
+    width:150px;
+    display: flex;
+    align-items: center;
+}
+.Nav-text{
+    z-index: 2;
+    position: absolute;
+    margin-left:50px;
+    /* float: right; */
+    color:white;
+
+}
